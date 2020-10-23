@@ -1,5 +1,9 @@
 const initialState = {
-    greeting: "Hello from State"
+    mainPageGreeting: "Hello MainPage",
+    secondPageGreeting: {
+        title: "hello Second Page",
+        body: "I think this is ridiculous"
+    }
 }
 
 const rootReducer = (state = initialState) => {
